@@ -69,7 +69,6 @@ $(document).ready(function () {
       };
       window.addEventListener("message", receiveMessage, false);
       console.log("Event listener added for message event.");
-
     }
   } else {
     console.log("user not logged in");
